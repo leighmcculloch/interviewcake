@@ -1,0 +1,6 @@
+language: go
+
+go_import_path: github.com/leighmcculloch/interviewcake
+
+script:
+  - go test -cover ./...
